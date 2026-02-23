@@ -1,6 +1,6 @@
 # SniperThink – Interactive Strategy Flow Section
 
-This project is a fullstack implementation of an interactive scroll-based strategy storytelling section built as part of the SniperThink frontend assignment.
+This project is the implementation of an interactive scroll-based strategy storytelling section built as part of the SniperThink assignment.
 
 The goal was to create a production-ready, animated, and engaging UI section that explains how SniperThink works — while integrating backend functionality for user interaction.
 
