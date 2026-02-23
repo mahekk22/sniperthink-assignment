@@ -1,16 +1,83 @@
-# React + Vite
+# SniperThink – Interactive Strategy Flow Section
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a fullstack implementation of an interactive scroll-based strategy storytelling section built as part of the SniperThink frontend assignment.
 
-Currently, two official plugins are available:
+The goal was to create a production-ready, animated, and engaging UI section that explains how SniperThink works — while integrating backend functionality for user interaction.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- React (Functional Components + Hooks)
+- Vite
+- Framer Motion
+- Modern ES6+ JavaScript
 
-## Expanding the ESLint configuration
+### Backend
+- Node.js
+- Express
+- REST API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Project Objective
+
+Build an interactive strategy flow section that:
+
+- Explains SniperThink’s 4-step methodology
+- Uses scroll-based storytelling
+- Includes smooth, engaging animations
+- Dynamically renders steps from structured data
+- Integrates with a backend API for user interest submission
+
+---
+
+##  Features
+
+### 1️⃣ Interactive Strategy Flow
+- Four dynamic strategy steps
+- Scroll-triggered animations
+- Unique animation per step
+- Visual progress indicator
+- Scroll-progress responsive interaction
+
+### 2️⃣ Dynamic Rendering
+- Steps rendered from structured data
+- No hardcoded JSX content
+- Scalable and maintainable architecture
+
+### 3️⃣ Backend Integration
+- `POST /api/interest`
+- Sends:
+  - Name
+  - Email
+  - Selected step
+- Loading state handling
+- Success & error feedback
+- Proper async handling
+
+### 4️⃣ Clean Architecture
+- Reusable components
+- Separated service layer for API calls
+- Custom hooks for scroll progress
+- Organized folder structure
+- Environment-based configuration
+
+---
+
+## 🏗 Folder Structure
+sniperthink-assignment/
+│
+├── frontend/
+│ ├── components/
+│ ├── hooks/
+│ ├── services/
+│ ├── data/
+│ └── styles/
+│
+├── backend/
+│ ├── routes/
+│ └── server.js
+│
+└── README.md
