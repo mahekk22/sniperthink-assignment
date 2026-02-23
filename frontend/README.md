@@ -66,18 +66,21 @@ Build an interactive strategy flow section that:
 
 ---
 
-## Folder Structure
+## 🏗 Folder Structure
+
+```
 sniperthink-assignment/
 │
 ├── frontend/
-│ ├── components/
-│ ├── hooks/
-│ ├── services/
-│ ├── data/
-│ └── styles/
+│   ├── components/
+│   ├── hooks/
+│   ├── services/
+│   ├── data/
+│   ├── styles/
 │
 ├── backend/
-│ ├── routes/
-│ └── server.js
+│   ├── routes/
+│   └── server.js
 │
 └── README.md
+```
