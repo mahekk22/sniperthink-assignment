@@ -1,6 +1,6 @@
 // frontend/src/services/api.js
 
-const API_URL = "https://sniperthink-assignment.onrender.com/api/interest";
+const API_URL = "https://sniperthink-assignment.onrender.com";
 
 export const submitInterest = async (data) => {
     const response = await fetch(`${API_URL}/api/interest`, {
